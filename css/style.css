@@ -1,0 +1,106 @@
+body {
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    font-size: 2rem;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: 0.5px solid #DDD;
+}
+
+form {
+    max-width: 25rem;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+}
+
+fieldset {
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    text-align: left;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boxes {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #DDD;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #DDD;
+}
+
+#button {
+    padding: 10px;
+    background-color: #6495ED;
+    border: none;
+    color: #F5F5F5;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+/* the tablet view is set here  */
+@media only screen and (min-width: 40rem) {
+    form {
+        max-width: 40rem;
+    }
+
+    .info-main {
+        display: flex;
+        gap: 10px;
+    }
+
+    #button {
+        width: 10rem;
+    }
+}
+
+/* the desktop view is set here */
+@media only screen and (min-width: 50rem) {
+    form {
+        max-width: 50rem;
+    }
+}
+
+/* #DDD
+
+#F5F5F5
+
+#6495ED */
